@@ -10,6 +10,7 @@ username='bigdk0900ft@gmail.com'
 receiver='bigdk0900ft@gmail.com'
 password=os.getenv('GOOGLE_APP_PW_1')
 
+st.title('Contact Us')
 
 with st.form(key='my_form'):
     user_email= st.text_input('Your email: ')
